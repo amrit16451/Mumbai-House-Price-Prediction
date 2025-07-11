@@ -45,11 +45,11 @@ Prices are first converted to a uniform unit (₹ Crore), and categorical values
 
 | Metric       | Value         |
 |--------------|---------------|
-| R² Score     | 0.93          |
-| RMSE         | ₹0.58 Crore   |
-| MAE          | ₹0.18 Crore   |
+| R² Score     | 0.96          |
+| RMSE         | ₹0.28 Crore   |
+| MAE          | ₹0.12 Crore   |
 
-The model explains about 93% of the variance in the data, with an average prediction error of ₹18 Lakhs, which is strong for real estate pricing.
+The model explains about 96% of the variance in the data, with an average prediction error of ₹18 Lakhs, which is strong for real estate pricing.
 
 ---
 
