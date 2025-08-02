@@ -44,14 +44,8 @@ Prices are first converted to a uniform unit (₹ Crore), and categorical values
 ## 🧪 Model Performance
 
 | Metric       | Value         |
-|--------------|---------------|
-<<<<<<< HEAD
 | R² Score     | 0.97          |
 | RMSE         | ₹0.24 Crore   |
-=======
-| R² Score     | 0.96          |
-| RMSE         | ₹0.28 Crore   |
->>>>>>> 7308a1ead321b1c11828c2105fa85de0249558d6
 | MAE          | ₹0.12 Crore   |
 
 The model explains about 96% of the variance in the data, with an average prediction error of ₹18 Lakhs, which is strong for real estate pricing.
@@ -86,4 +80,5 @@ new_data = {
     'status': ['Ready to move'],
     'age': ['New'],         
 }
-predict_price(sample_input)  # Output: ₹1.43 Crore
+
+predict_price(sample_input)  # Output: ₹0.37 Crore
