@@ -1,4 +1,4 @@
-# 🏠 Mumbai House Price Prediction with XGBoost
+# 🏠 Mumbai House Price Prediction with CAT-Boost
 
 This project focuses on building a machine learning model to predict property prices in Mumbai using housing data. The goal is to estimate the price of a house based on features like locality, type, area, age, and other relevant parameters.
 
@@ -55,5 +55,6 @@ The top contributing features to price prediction include:
 - Property Type
 - Number of Bathrooms
 - Age of Property
+
 
 A visualization using `plot_importance()` is included in the project.
