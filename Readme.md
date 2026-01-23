@@ -16,7 +16,7 @@ The dataset contains property listings from Mumbai, including details like:
 - **Area**,
 - **Price**, with units in Lakhs or Crores
 
-Prices are first converted to a uniform unit (₹ Crore), and categorical values are label encoded. After preprocessing, an XGBoost model is trained and evaluated.
+Prices are first converted to a uniform unit (₹ Crore), and categorical values are label encoded. After preprocessing, an CATBoost model is trained and evaluated.
 
 ---
 
@@ -58,3 +58,4 @@ The top contributing features to price prediction include:
 
 
 A visualization using `plot_importance()` is included in the project.
+
